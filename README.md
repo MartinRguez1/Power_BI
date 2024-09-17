@@ -1,6 +1,7 @@
 # VENTAS SUPERSTORE
 
-##Contexto
+## Contexto
+
 ¿Recuerdas los datos de ventas que analizaste en el módulo de Tableau? Bueno,
 volveremos a trabajar con ellos pero, desde un punto de vista distinto. Recordemos que en
 la clase de Power BI aprendimos que un dashboard debe ser una experiencia para el
