@@ -16,27 +16,12 @@ Crear un dashboard de ventas en **Power BI Desktop** utilizando el archivo _"Sam
     ● Country/Region y Estado - País y Estado de venta.
     ● Segment - Segmento del cliente.
 
-Pasos a seguir
-1. Importa la base de datos Sample - Superstore - Orders Only.csv en Power BI.
-2. Crea una primera página llamada “General”, donde el cliente pueda tener un vistazo
-general de sus ventas desde distintos puntos de vista (ej. por categoría, estado,
-segmento). En este paso se solicita utilizar mínimo 2 visualizaciones y 2 tarjetas.
-3. Tu dashboard “General” debe contener…
-○ Un título que diga “Ventas”.
-○ Una barra vertical y horizontal con al menos dos filtros de tu elección.
-○ Al menos un logo o ícono que aporte al diseño del dashboard. Una página
-recomendada para descargar iconos es Flaticon. Los iconos son gratuitos, y
-lo más recomendados para Power BI son los archivos tipo PNG de 128x128
-px.
-4. Dale más vida a tu dashboard con al menos UNA de estas opciones:
-○ Opción 1
-■ Crea una página extra donde los clientes puedan ver su información
-desde otra perspectiva. Puede ser una página dedicada a entregar los
-datos en forma de tabla, una página con un mapa en pantalla
-completa, o una página con visualizaciones en un segmento en
-específico. Como último toque agrega un navegador de páginas.
-○ Opción 2
-■ Crea una página escondida a la cual se pueda acceder por medio de
-la opción de “Obtener detalles”. A la cual se pueda acceder desde
-una columna o varias. Esta página escondida puede ser un resumen
-por producto, un detalle por cliente, o más.
+## Desarollo de la actividad
+
+1. Se importa la base de datos _"Sample - Superstore - Orders Only.csv"_ en __Power BI__.
+2. Se crea una columna con una Medida llamada _Ventas_ donde se calcula el monto total de la venta.
+3. Se crean 3 pestañas, dos visisbles y una oculta.
+   * En primer página llamada _“General”_, el usuario puede tener un vistazo general de sus ventas desde puntos de vista Sub-Categoria, por estado, por provincia, ademas 2 tarjetas donde se visualiza el monto total de la venta y las ciudades donde tenemos presencia.
+   * En la segunda pestaña se muestra un resumen por mes y año y otro por sub categoria y venta por año.
+   * La pestaña oculta tiene el detalle de Ventas por Cliente a la cual se pueda acceder por medio de la opción de _“Obtener detalles”_, para el caso de que el cliente necesite saber quiénes son sus mejores compradores
+
