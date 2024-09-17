@@ -8,7 +8,8 @@ imágenes, los filtros, y los botones deben tener un propósito… ¡Conocer los
 
 ## Objetivo
 
-Crear un dashboard de ventas en Power BI Desktop utilizando el archivo "Sample - Superstore - Orders Only.csv". 
+Crear un dashboard de ventas en **Power BI Desktop** utilizando el archivo _"Sample - Superstore - Orders Only.csv"_.
+  
   El archivo contiene datos de venta donde algunas columnas clave son:
     
     ● Category y Sub-category- Categoría y subcategoría del producto.
